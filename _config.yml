@@ -51,7 +51,7 @@ header_pages:
 - about.md
 
 # Set this to true to display the summary of your blog post under your title on the Home page.
-show_description: true
+show_description: false
 
 # Set this to true to display image previews on home page, if they exist
 show_image: false
@@ -68,7 +68,6 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
- - jekyll-toc
  - jekyll-twitter-plugin
  - jekyll-relative-links
  - jemoji
