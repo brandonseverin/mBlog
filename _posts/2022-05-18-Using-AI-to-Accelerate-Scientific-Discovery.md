@@ -5,9 +5,6 @@ description: Oxford University's Institute for Ethics in AI, Sheldonian Theatre
 categories: [notes, talks]
 title: Using AI to Accelerate Scientific Discovery - Demis Hassabis
 ---
-
-# Using AI to Accelerate Scientific Discovery
-
 > Demis Hassabis, *co-founder and CEO of DeepMind*
 
 - Fresh trim Demis 😉
