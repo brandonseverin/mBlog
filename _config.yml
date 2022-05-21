@@ -1,11 +1,11 @@
 title: "Brandon's Blog"
 author:
   name: Brandon Severin
-  email: your-email@domain.com
+  # email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Brandon Severin's Blog - since 2021
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -47,8 +47,20 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+- about.md
+
+# Set this to true to display the summary of your blog post under your title on the Home page.
+show_description: true
+
+# Set this to true to display image previews on home page, if they exist
+show_image: false
+
+# Set this to true to turn on annotations with hypothes.is (https://web.hypothes.is/)
+annotations: false
+
+# Set this to true to display tags on each post
+show_tags: true
 
 # Build settings
 theme: minima
@@ -56,3 +68,7 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-toc
+ - jekyll-twitter-plugin
+ - jekyll-relative-links
+ - jemoji
