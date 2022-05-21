@@ -5,7 +5,7 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
   Brandon Severin's Blog - since 2021
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -68,6 +68,3 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
- - jekyll-twitter-plugin
- - jekyll-relative-links
- - jemoji
